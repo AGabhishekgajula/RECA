@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styleforsignup.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="typing-animation"></h1>
+        <form class="signup-form">
+            <div class="mb-3" style="text-align: start;">
+                <label for="username" class="form-label">username</label>
+                <input type="text" class="form-control" id="username" placeholder="enter name">
+            </div>
+            <div class="mb-3" style="text-align: start;">
+                <label for="rollno" class="form-label">Roll no.</label>
+                <input type="text" class="form-control" id="rollno" placeholder="enter Roll no.">
+            </div>  
+            <div class="form-floating">
+                <label for="floatingPassword" style="text-align: start;">Password</label>
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            </div>
+            <div id="passwordHelpBlock" class="form-text" style="text-align: start;">
+                Your password must be 8-20 characters long
+              </div>
+            <button class="button">confirm</button>
+              
+        </form>
+    </div>
+    <script src="scriptforsignup.js"></script>
+</body>
+</html>
