@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="styleforsignup.css">
+    <link rel="stylesheet" href="/signin/styleforsignin.css">
+   
 </head>
 <body>
     <div class="container">
         <h1 class="typing-animation"></h1>
-        <form class="signup-form">
+        <form method="post" class="signup-form" action="/reca/signinreq">
             <div class="mb-3" style="text-align: start;">
-                <label for="username" class="form-label">Roll no.</label>
-                <input type="text" class="form-control" id="rollno" placeholder="enter roll no">
+                <label for="rollno" class="form-label">Roll no.</label>
+                <input type="text" class="form-control" id="rollno" placeholder="enter roll no" name="rollno">
             </div>
             <div class="form-floating">
                 <label for="floatingPassword" style="text-align: start;">Password</label>
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password">
             </div>
             <button class="button">Less Go</button>
               
         </form>
     </div>
-    <script src="scriptforsignin.js"></script>
+    <script src="/signin/scriptforsignin.js"></script>
 </body>
 </html>
